@@ -1,5 +1,6 @@
 # relative-number package
 
-A short description of your package.
+Enable relative line numbers. Cursor line becomes 0, rest are marked
+as 1, 2, 3, … in both directions.
 
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+This mirrors the all awesome vim `:set relativenumber` command.
