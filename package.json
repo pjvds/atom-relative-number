@@ -1,0 +1,14 @@
+{
+  "name": "relative-number",
+  "main": "./index.coffee",
+  "version": "0.0.1",
+  "description": "Enable relative line numbers. Cursor line becomes 0, rest are marked as 1, 2, 3, … in both directions.",
+  "activationEvents": ["relative-number:toggle"],
+  "repository": "https://github.com/atom/relative-number",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

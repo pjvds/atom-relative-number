@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable relative-number': 'relative-number:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'relative-number'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'relative-number:toggle' }
+      ]
+    ]
+  }
+]
